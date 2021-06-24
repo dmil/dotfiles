@@ -1,2 +1,8 @@
+#!/bin/bash
+#/ Usage: bin/strap.sh [--debug]
+
+# see: https://github.com/MikeMcQuaid/strap/blob/master/bin/strap.sh
+
+cd $(dirname $0)/..
 ln -sf ~/.dotfiles/Brewfile ~/.Brewfile
 brew bundle —global
