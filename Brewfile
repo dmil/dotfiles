@@ -1,0 +1,8 @@
+brew "awscli"
+brew "gh"
+brew "mas"
+mas "Kindle", id: 405399194
+mas "Notability", id: 736189492
+mas "Pocket", id: 568494494
+mas "TickTick", id: 966085870
+mas "WhatsApp", id: 1147396723
