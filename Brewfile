@@ -1,6 +1,7 @@
 brew "awscli"
 brew "gh"
 brew "mas"
+cask "visual-studio-code"
 mas "Kindle", id: 405399194
 mas "Notability", id: 736189492
 mas "Pocket", id: 568494494
