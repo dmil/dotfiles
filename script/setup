@@ -5,4 +5,4 @@
 
 cd $(dirname $0)/..
 ln -sf ~/.dotfiles/Brewfile ~/.Brewfile
-brew bundle —-global
+brew bundle --global
