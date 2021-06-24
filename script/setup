@@ -1,0 +1,2 @@
+ln -sf ~/.dotfiles/Brewfile ~/.Brewfile
+brew bundle —global
