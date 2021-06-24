@@ -1,7 +1,15 @@
 brew "awscli"
 brew "gh"
 brew "mas"
+
+cask "1password"
+cask "keybase"
+cask "zoom"
+cask "carbon-copy-cloner"
+cask "signal"
+cask "keepingyouawake"
 cask "visual-studio-code"
+
 mas "Kindle", id: 405399194
 mas "Notability", id: 736189492
 mas "Pocket", id: 568494494
