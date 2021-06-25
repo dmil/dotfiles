@@ -6,3 +6,13 @@
 cd $(dirname $0)/..
 ln -sf ~/.dotfiles/Brewfile ~/.Brewfile
 brew bundle --global
+
+
+# iTerm2 Preferences Folder Location
+defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/.dotfiles/iterm2"
+defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
+
+# Rectangle Alternate Default Shortcuts
+defaults write com.knollsoft.Rectangle alternateDefaultShortcuts -bool true
+
+echo "Done configuring macOS!"

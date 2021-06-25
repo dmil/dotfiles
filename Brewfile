@@ -10,6 +10,9 @@ cask "keepingyouawake"
 cask "visual-studio-code"
 cask "google-chrome"
 cask "rectangle"
+cask "google-chrome-canary"
+cask "iterm2"
+cask "private-internet-access"
 
 mas "Kindle", id: 405399194
 mas "Notability", id: 736189492
