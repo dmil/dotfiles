@@ -12,8 +12,9 @@ brew bundle --global
 defaults write com.googlecode.iterm2.plist PrefsCustomFolder -string "~/.dotfiles/iterm2"
 defaults write com.googlecode.iterm2 LoadPrefsFromCustomFolder -bool true
 
-# Rectangle Alternate Default Shortcuts and TODO mode
+# Rectangle Alternate Default Shortcuts
 defaults write com.knollsoft.Rectangle alternateDefaultShortcuts -bool true
+# Rectangle TODO mode https://github.com/rxhanson/Rectangle/wiki/Todo-Mode
 defaults write com.knollsoft.Rectangle todo -int 1
 
 echo "Done configuring macOS!"
