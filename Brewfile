@@ -9,6 +9,7 @@ cask "signal"
 cask "keepingyouawake"
 cask "visual-studio-code"
 cask "google-chrome"
+cask "rectangle"
 
 mas "Kindle", id: 405399194
 mas "Notability", id: 736189492
